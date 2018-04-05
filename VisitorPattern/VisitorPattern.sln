@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{B478A56D-C77D-42F1-B951-71A528926624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutVisitor", "WithoutVisitor\WithoutVisitor.csproj", "{4FB5326A-0E90-4C54-8AB3-0EA7EB15F78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B478A56D-C77D-42F1-B951-71A528926624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B478A56D-C77D-42F1-B951-71A528926624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B478A56D-C77D-42F1-B951-71A528926624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B478A56D-C77D-42F1-B951-71A528926624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB5326A-0E90-4C54-8AB3-0EA7EB15F78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB5326A-0E90-4C54-8AB3-0EA7EB15F78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB5326A-0E90-4C54-8AB3-0EA7EB15F78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB5326A-0E90-4C54-8AB3-0EA7EB15F78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76A88DCD-AEA2-43EE-A285-3357FFE8B721}
+	EndGlobalSection
+EndGlobal

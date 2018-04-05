@@ -187,3 +187,5 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/VisitorPattern/.vs/VisitorPattern/v15/Server/sqlite3
+/.vs
