@@ -10,8 +10,6 @@
             Total += bankAccount.Amount;
         }
 
-        public void Visit(Equities equities) { }
-
         public void Visit(Loan loan) {
             Total -= loan.Owed;
         }

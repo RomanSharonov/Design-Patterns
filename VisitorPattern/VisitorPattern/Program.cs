@@ -9,7 +9,6 @@ namespace VisitorPattern {
             person.Assets.Add(new BankAccount(amount: 2000, monthlyInterest: 0.02));
             person.Assets.Add(new RealEstate(estimatedValue: 79000, monthlyRent: 500));
             person.Assets.Add(new Loan(owed: 40000, monthlyRent: 40));
-            person.Assets.Add(new Equities(id: "MMM", amount: 1000));
 
             var netWorth = new NetWorthVisitor();
             person.Accept(netWorth);
