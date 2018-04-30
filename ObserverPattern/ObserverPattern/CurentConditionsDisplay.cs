@@ -16,7 +16,7 @@ namespace ObserverPattern {
         }
 
         public void Display() {
-            Console.WriteLine("Current conditions: {0} C degree and {1} %humidity", Temperature, Humidity);
+            Console.WriteLine($"Current conditions: {Temperature} C degree and {Humidity} %humidity");
         }
     }
 }
