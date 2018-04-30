@@ -189,3 +189,7 @@ _Pvt_Extensions/
 ModelManifest.xml
 /VisitorPattern/.vs/VisitorPattern/v15/Server/sqlite3
 /.vs
+*.lock
+*.ide-shm
+/ObserverPattern/.vs/ObserverPattern/v15/Server/sqlite3
+/VisitorPattern/VisitorPattern/MonthlyIncome.cs

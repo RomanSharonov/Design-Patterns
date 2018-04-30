@@ -3,29 +3,29 @@ using System.Collections.Generic;
 
 namespace ObserverPattern {
     public class WeatherData : ISubject {
-        private List<IObserver> _observers;
-        private float _temperature;
-        private float _humidity;
-        private float _pressure;
+        private List<IObserver> Observers;
+        private float Temperature;
+        private float Humidity;
+        private float Pressure;
 
         public WeatherData() {
-            _observers = new List<IObserver>();
+            Observers = new List<IObserver>();
         }
 
         public void RegisterObserver(IObserver observer) {
-            _observers.Add(observer);
+            Observers.Add(observer);
         }
 
         public void RemoveObserver(IObserver observer) {
-            int i = _observers.IndexOf(observer);
+            int i = Observers.IndexOf(observer);
             if (i >= 0) {
-                _observers.Remove(observer);
+                Observers.Remove(observer);
             }
         }
 
         public void NotifyObservers() {
-            foreach (var observer in _observers) {
-                observer.Update(_temperature, _humidity, _pressure);
+            foreach (var observer in Observers) {
+                observer.Update(Temperature, Humidity, Pressure);
             }
         }
 
@@ -34,9 +34,9 @@ namespace ObserverPattern {
         }
 
         public void SetMeasurements(float temperature, float humidity, float pressure) {
-            _temperature = temperature;
-            _humidity = humidity;
-            _pressure = pressure;
+            Temperature = temperature;
+            Humidity = humidity;
+            Pressure = pressure;
             MeasurementsChanged();
         }
     }
